@@ -1,14 +1,28 @@
-const Game = () => {
+import React from 'react';
+
+const Game = ({ questions, step, setStep, correct, setCorrect }) => {
+    const question = questions[step];
+    const persent = (step / questions.length) * 100;
+
+    const onClickVariant = (index) => {
+        setStep(step + 1);
+        if (question.correct === index) {
+            setCorrect(correct + 1);
+        }
+    };
+
     return (
         <>
             <div className="progress">
-                <div style={{ width: '50%' }} className="progress__inner"></div>
+                <div style={{ width: `${persent}%` }} className="progress__inner"></div>
             </div>
-            <h1>Что такое useState?</h1>
+            <h1>{question.title}</h1>
             <ul>
-                <li>Это функция для хранения данных компонента</li>
-                <li>Это глобальный стейт</li>
-                <li>Это когда на ты никому не нужен</li>
+                {question.variants.map((variant, i) => (
+                    <li onClick={() => onClickVariant(i)} key={variant}>
+                        {variant}
+                    </li>
+                ))}
             </ul>
         </>
     );
