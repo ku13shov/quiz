@@ -1,0 +1,143 @@
+[
+    
+    {
+        "HTML": [
+            {
+                "title": "HTML - это ... ?",
+                "variants": [
+                    "приложение",
+                    "библиотека",
+                    "фреймворк"
+                ],
+                "correct": 1
+            }
+        ],
+        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/html.webp"  
+    },
+
+    {
+        "CSS": [
+            {
+                "title": "CSS - это ... ?",
+                "variants": [
+                    "приложение",
+                    "библиотека",
+                    "фреймворк"
+                ],
+                "correct": 1
+            }
+        ],
+        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/css.webp"
+    },
+
+    {
+        "JavaScript": [
+            {
+                "title": "JS - это ... ?",
+                "variants": [
+                    "приложение",
+                    "библиотека",
+                    "фреймворк"
+                ],
+                "correct": 1
+            }
+        ],
+        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/js.webp"
+    },
+
+    {
+        "ReactJS": [
+            {
+                "title": "React - это ... ?",
+                "variants": [
+                    "приложение",
+                    "библиотека",
+                    "фреймворк"
+                ],
+                "correct": 1
+            },
+            {
+                "title": "Каким образом можно передать данные от родительского компонента к дочернему в React?",
+                "variants": [
+                    "state",
+                    "props",
+                    "context"
+                ],
+                "correct": 1
+            },
+            {
+                "title": "Что такое JSX в React?",
+                "variants": [
+                    "JavaScript XML",
+                    "Java Syntax Extension",
+                    "JavaScript Extension"
+                ],
+                "correct": 0
+            },
+            {
+                "title": "Какой метод жизненного цикла React компонента вызывается после рендеринга компонента?",
+                "variants": [
+                    "componentDidUpdate",
+                    "componentWillUnmount",
+                    "componentDidMount"
+                ],
+                "correct": 2
+            },
+            {
+                "title": "Какое свойство React компонента используется для хранения внутреннего состояния?",
+                "variants": [
+                    "props",
+                    "state",
+                    "context"
+                ],
+                "correct": 1
+            },
+            {
+                "title": "Что такое Virtual DOM в React?",
+                "variants": [
+                    "Виртуальная копия DOM",
+                    "Виртуальный контейнер для компонентов",
+                    "Виртуальное представление реального DOM"
+                ],
+                "correct": 2
+            },
+            {
+                "title": "Каким образом можно обработать событие клика на элементе в React?",
+                "variants": [
+                    "onMouseClick",
+                    "onClick",
+                    "onEvent"
+                ],
+                "correct": 1
+            },
+            {
+                "title": "Каким методом можно обновить состояние React компонента?",
+                "variants": [
+                    "updateState",
+                    "setState",
+                    "changeState"
+                ],
+                "correct": 1
+            },
+            {
+                "title": "Какой метод жизненного цикла React компонента вызывается перед удалением компонента?",
+                "variants": [
+                    "componentWillUnmount",
+                    "componentWillUpdate",
+                    "componentDidUnmount"
+                ],
+                "correct": 0
+            },
+            {
+                "title": "Какой оператор используется для условного рендеринга в JSX?",
+                "variants": [
+                    "for loop",
+                    "if-else",
+                    "тернарный оператор"
+                ],
+                "correct": 2
+            }
+        ],
+        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/react.webp"
+    }
+]
