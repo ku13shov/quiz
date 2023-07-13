@@ -1,95 +1,213 @@
 [
-    
     {
         "HTML": [
             {
                 "title": "HTML - это ... ?",
                 "variants": [
-                    "приложение",
-                    "библиотека",
-                    "фреймворк"
+                    "язык гипертекстовой разметки",
+                    "язык программирования",
+                    "графический редактор"
                 ],
+                "correct": 0
+            },
+            {
+                "title": "Какой тег используется для создания заголовка первого уровня в HTML?",
+                "variants": ["<h2>", "<h3>", "<h1>"],
+                "correct": 2
+            },
+            {
+                "title": "Какой тег используется для создания ссылки в HTML?",
+                "variants": ["<link>", "<a>", "<href>"],
+                "correct": 1
+            },
+            {
+                "title": "Какой тег используется для создания нумерованного списка в HTML?",
+                "variants": ["<ol>", "<li>", "<ul>"],
+                "correct": 0
+            },
+            {
+                "title": "Какой тег используется для создания таблицы в HTML?",
+                "variants": ["<td>", "<table>", "<tr>"],
+                "correct": 1
+            },
+            {
+                "title": "Какой тег используется для создания изображения в HTML?",
+                "variants": ["<video>", "<img>", "<src>"],
+                "correct": 1
+            },
+            {
+                "title": "Какой тег используется для создания формы в HTML?",
+                "variants": ["<button>", "<input>", "<form>"],
+                "correct": 2
+            },
+            {
+                "title": "Какой атрибут используется для задания CSS стиля элементу в HTML?",
+                "variants": ["style", "class", "id"],
+                "correct": 0
+            },
+            {
+                "title": "Какой тег используется для создания ненумерованного списка в HTML?",
+                "variants": ["<ul>", "<li>", "<ol>"],
+                "correct": 0
+            },
+            {
+                "title": "Какой тег используется для создания абзаца в HTML?",
+                "variants": ["<div>", "<p>", "<br>"],
                 "correct": 1
             }
         ],
-        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/html.webp"  
+        "icon": "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/html.webp"
     },
 
     {
         "CSS": [
             {
-                "title": "CSS - это ... ?",
-                "variants": [
-                    "приложение",
-                    "библиотека",
-                    "фреймворк"
-                ],
+                "title": "CSS - это ...?",
+                "variants": ["язык разметки", "язык программирования", "язык стилей"],
+                "correct": 2
+            },
+            {
+                "title": "Какой селектор используется для выбора элемента по идентификатору в CSS?",
+                "variants": ["#", ".", ":"],
+                "correct": 0
+            },
+            {
+                "title": "Какое свойство используется для изменения цвета текста в CSS?",
+                "variants": ["font-size", "background-color", "color"],
+                "correct": 2
+            },
+            {
+                "title": "Какое свойство используется для изменения размера шрифта в CSS?",
+                "variants": ["font-family", "font-size", "line-height"],
                 "correct": 1
+            },
+            {
+                "title": "Какое свойство используется для задания отступа вокруг элемента в CSS?",
+                "variants": ["padding", "margin", "border"],
+                "correct": 1
+            },
+            {
+                "title": "Какое свойство используется для задания фонового изображения в CSS?",
+                "variants": ["background-color", "background-image", "background-size"],
+                "correct": 1
+            },
+            {
+                "title": "Какое свойство используется для изменения прозрачности элемента в CSS?",
+                "variants": ["opacity", "visibility", "display"],
+                "correct": 0
+            },
+            {
+                "title": "Какое свойство используется для создания анимации в CSS?",
+                "variants": ["transition", "animation", "transform"],
+                "correct": 1
+            },
+            {
+                "title": "Какое свойство используется для изменения положения элемента в CSS?",
+                "variants": ["position", "float", "top"],
+                "correct": 0
+            },
+            {
+                "title": "Какое свойство используется для изменения ширины границы элемента в CSS?",
+                "variants": ["border-width", "border-color", "border-style"],
+                "correct": 0
             }
         ],
-        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/css.webp"
+        "icon": "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/css.webp"
     },
 
     {
         "JavaScript": [
             {
-                "title": "JS - это ... ?",
+                "title": "JavaScript - это ...?",
+                "variants": ["язык разметки", "язык программирования", "язык стилей"],
+                "correct": 1
+            },
+            {
+                "title": "Как объявить переменную в JavaScript?",
+                "variants": ["var myVariable;", "myVariable = var;", "variable myVariable;"],
+                "correct": 0
+            },
+            {
+                "title": "Какой символ используется для комментариев в JavaScript?",
+                "variants": ["//", "/*", "#"],
+                "correct": 0
+            },
+            {
+                "title": "Какой метод используется для добавления элемента в конец массива в JavaScript?",
+                "variants": [".push()", ".pop()", ".concat()"],
+                "correct": 0
+            },
+            {
+                "title": "Что делает оператор '===' в JavaScript?",
                 "variants": [
-                    "приложение",
-                    "библиотека",
-                    "фреймворк"
+                    "Сравнивает значения на равенство",
+                    "Сравнивает значения на идентичность",
+                    "Присваивает значение переменной"
                 ],
                 "correct": 1
+            },
+            {
+                "title": "Что вернет выражение 'typeof null' в JavaScript?",
+                "variants": ["'object'", "'null'", "'undefined'"],
+                "correct": 0
+            },
+            {
+                "title": "Какой метод используется для преобразования строки в число в JavaScript?",
+                "variants": [".parse()", ".stringify()", ".parseInt()"],
+                "correct": 2
+            },
+            {
+                "title": "Что такое замыкание (closure) в JavaScript?",
+                "variants": [
+                    "Объект со свойствами и методами",
+                    "Блок кода, выполняющийся после задержки",
+                    "Функция, запоминающая свою лексическую область видимости"
+                ],
+                "correct": 2
+            },
+            {
+                "title": "Какой метод используется для удаления элемента из массива в JavaScript?",
+                "variants": [".delete()", ".splice()", ".remove()"],
+                "correct": 1
+            },
+            {
+                "title": "Что делает метод 'forEach()' в JavaScript?",
+                "variants": [
+                    "Выполняет указанную функцию для каждого элемента массива",
+                    "Сортирует элементы массива по возрастанию",
+                    "Преобразует массив в строку"
+                ],
+                "correct": 0
             }
         ],
-        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/js.webp"
+        "icon": "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/js.webp"
     },
 
     {
         "ReactJS": [
             {
                 "title": "React - это ... ?",
-                "variants": [
-                    "приложение",
-                    "библиотека",
-                    "фреймворк"
-                ],
+                "variants": ["приложение", "библиотека", "фреймворк"],
                 "correct": 1
             },
             {
                 "title": "Каким образом можно передать данные от родительского компонента к дочернему в React?",
-                "variants": [
-                    "state",
-                    "props",
-                    "context"
-                ],
+                "variants": ["state", "props", "context"],
                 "correct": 1
             },
             {
                 "title": "Что такое JSX в React?",
-                "variants": [
-                    "JavaScript XML",
-                    "Java Syntax Extension",
-                    "JavaScript Extension"
-                ],
+                "variants": ["JavaScript XML", "Java Syntax Extension", "JavaScript Extension"],
                 "correct": 0
             },
             {
                 "title": "Какой метод жизненного цикла React компонента вызывается после рендеринга компонента?",
-                "variants": [
-                    "componentDidUpdate",
-                    "componentWillUnmount",
-                    "componentDidMount"
-                ],
+                "variants": ["componentDidUpdate", "componentWillUnmount", "componentDidMount"],
                 "correct": 2
             },
             {
                 "title": "Какое свойство React компонента используется для хранения внутреннего состояния?",
-                "variants": [
-                    "props",
-                    "state",
-                    "context"
-                ],
+                "variants": ["props", "state", "context"],
                 "correct": 1
             },
             {
@@ -103,41 +221,25 @@
             },
             {
                 "title": "Каким образом можно обработать событие клика на элементе в React?",
-                "variants": [
-                    "onMouseClick",
-                    "onClick",
-                    "onEvent"
-                ],
+                "variants": ["onMouseClick", "onClick", "onEvent"],
                 "correct": 1
             },
             {
                 "title": "Каким методом можно обновить состояние React компонента?",
-                "variants": [
-                    "updateState",
-                    "setState",
-                    "changeState"
-                ],
+                "variants": ["updateState", "setState", "changeState"],
                 "correct": 1
             },
             {
                 "title": "Какой метод жизненного цикла React компонента вызывается перед удалением компонента?",
-                "variants": [
-                    "componentWillUnmount",
-                    "componentWillUpdate",
-                    "componentDidUnmount"
-                ],
+                "variants": ["componentWillUnmount", "componentWillUpdate", "componentDidUnmount"],
                 "correct": 0
             },
             {
                 "title": "Какой оператор используется для условного рендеринга в JSX?",
-                "variants": [
-                    "for loop",
-                    "if-else",
-                    "тернарный оператор"
-                ],
+                "variants": ["for loop", "if-else", "тернарный оператор"],
                 "correct": 2
             }
         ],
-        "icon" : "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/react.webp"
+        "icon": "https://raw.githubusercontent.com/ku13shov/quiz/main/src/images/react.webp"
     }
 ]
