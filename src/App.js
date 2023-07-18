@@ -7,7 +7,7 @@ import './index.scss';
 import Start from './components/Start';
 
 const App = () => {
-    const [questions, setQuestions] = React.useState('');
+    const [questions, setQuestions] = React.useState([]);
     const [step, setStep] = React.useState(0);
     const [correct, setCorrect] = React.useState(0);
     const [themeName, setThemeName] = React.useState('');
@@ -19,7 +19,7 @@ const App = () => {
                 const { data } = await axios.get('https://4805f9918df2294c.mokky.ru/questions');
                 setQuestions(data);
             } catch (error) {
-                console.error(error.message);
+                alert('При загрузке вопросов произошла ошибка! Попробуйте обновить страницу');
             }
         };
 
