@@ -7,7 +7,7 @@ import './index.scss';
 import Start from './components/Start';
 
 const App = () => {
-    const [questions, setQuestions] = React.useState([]);
+    const [questions, setQuestions] = React.useState('');
     const [step, setStep] = React.useState(0);
     const [correct, setCorrect] = React.useState(0);
     const [themeName, setThemeName] = React.useState('');
