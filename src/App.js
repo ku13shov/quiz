@@ -12,6 +12,7 @@ const App = () => {
     const [correct, setCorrect] = React.useState(0);
     const [themeName, setThemeName] = React.useState('');
     const [themeIndex, setThemeIndex] = React.useState('');
+    const [errorMessage, setErrorMessage] = React.useState('');
 
     React.useEffect(() => {
         const getQuestions = async () => {
@@ -19,7 +20,8 @@ const App = () => {
                 const { data } = await axios.get('https://4805f9918df2294c.mokky.ru/questions');
                 setQuestions(data);
             } catch (error) {
-                alert('При загрузке вопросов произошла ошибка! Попробуйте обновить страницу');
+                setErrorMessage(error.message);
+                console.log();
             }
         };
 
@@ -33,6 +35,7 @@ const App = () => {
                     questions={questions}
                     setThemeName={setThemeName}
                     setThemeIndex={setThemeIndex}
+                    errorMessage={errorMessage}
                 />
             </div>
         );

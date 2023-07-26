@@ -1,4 +1,6 @@
-const Start = ({ questions, setThemeName, setThemeIndex }) => {
+import Loading from "./Loading";
+
+const Start = ({ questions, setThemeName, setThemeIndex, errorMessage }) => {
     const selectThemeHandler = (themeName, themeIndex) => {
         setThemeName(themeName);
         setThemeIndex(themeIndex);
@@ -15,11 +17,7 @@ const Start = ({ questions, setThemeName, setThemeIndex }) => {
 
             <ul>
                 {!questions ? (
-                    <img
-                        className="start__loading"
-                        src="https://cdn-icons-png.flaticon.com/512/10976/10976976.png"
-                        alt="loading icon"
-                    />
+                    <Loading errorMessage={errorMessage} />
                 ) : (
                     questions.map((item, i) => {
                         const themeName = Object.keys(item)[0];
