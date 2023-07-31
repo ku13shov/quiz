@@ -17,7 +17,7 @@ const App = () => {
     React.useEffect(() => {
         const getQuestions = async () => {
             try {
-                const { data } = await axios.get('https://4805f9918df2294c.mokky.ru/questions');
+                const { data } = await axios.get('https://64c79b32a1fe0128fbd50432.mockapi.io/quiz');
                 setQuestions(data);
             } catch (error) {
                 setErrorMessage(error.message);
