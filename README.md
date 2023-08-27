@@ -18,4 +18,4 @@
 - Prettier (форматирование кода)
 - SCSS (стилизация)
 - React Content Loader (скелетон)
-- Сайт для хранения данных — [https://mokky.ru/](https://mokky.ru/)
+- Сайт для хранения данных — [https://mockapi.io](https://mockapi.io)
